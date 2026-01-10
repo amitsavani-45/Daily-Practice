@@ -1,6 +1,6 @@
 
 
-//normal proggram for sum of two number 
+//normal proggram for sum of two numbers 
 
 let x =prompt("enter the first number ");
 let y= prompt("enter the second number ");
@@ -12,7 +12,7 @@ console.log("The number sum is ",z);
 
 
 
-//Normal function for the sum of two number 
+//Normal function for the sum of two numbers 
 function addtion(a,b)
 
 {
@@ -23,7 +23,7 @@ let result=(addtion(10,20));
 console.log("Addition of two number",result);
 
 
-// function for  the sum of two number enter by the user 
+// function for  the sum of two numbers enter by the user 
 function sum(c,d)
 
 {
