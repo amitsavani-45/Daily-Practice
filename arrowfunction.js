@@ -20,3 +20,28 @@ console.log(sq(15));
 
 const cube= (num)=>num**3;
 console.log(cube(3));
+
+
+// Arrow function to add two numbers
+const add = (c, b) => c + b;
+
+console.log(add(10, 5)); 
+
+
+// arrow function for voting eligible or not
+
+const checkage= age =>{
+
+    if(age >= 18) {
+       console.log("You are eligible for the vote");
+    }
+    else {
+        console.log("You are not eligble for the vote");
+}
+
+
+
+    }
+
+    checkage(20);
+
