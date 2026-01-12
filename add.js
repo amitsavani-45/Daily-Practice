@@ -1,6 +1,6 @@
 
 
-//normal proggram for sum of two numbers 
+//normal programe for sum of two numbers 
 
 let x =prompt("enter the first number ");
 let y= prompt("enter the second number ");
