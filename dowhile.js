@@ -26,6 +26,7 @@ do{
     k+=2;
 }
 while(k<=20)
+    
 //print odd numbers from 1 to 19
 
 let m=1; 
