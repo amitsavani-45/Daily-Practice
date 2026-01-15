@@ -51,3 +51,45 @@ for (const [name, score] of scores) {
   console.log(`${name}: ${score}`);
 }
 
+
+
+let name = 'amitsavani', i = 0;
+for (const x of name) {
+  i++;
+}
+console.log(i);
+
+//next()
+const fruits1 = ['apple', 'banana', 'orange'];
+
+
+const iterator = fruits1[Symbol.iterator]();
+
+
+console.log(iterator.next()); 
+
+
+console.log(iterator.next()); 
+
+
+console.log(iterator.next()); 
+
+
+console.log(iterator.next()); 
+
+/*
+
+ Visual Representation
+```
+Array: ['apple', 'banana', 'orange']
+        ↑
+     iterator starts here
+
+Call 1: next() → { value: 'apple', done: false }
+                  ↓
+Call 2: next() → { value: 'banana', done: false }
+                  ↓
+Call 3: next() → { value: 'orange', done: false }
+                  ↓
+Call 4: next() → { value: undefined, done: true } ← Finished!
+*/
