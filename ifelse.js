@@ -98,9 +98,9 @@ else if(temp<29 && temp>=20)
 
     //check number is odd
 
-    let num=7;
+    let num2=7;
 
-    if(num%2!=0)
+    if(num2%2!=0)
     {
         console.log("Number is odd");   
     }

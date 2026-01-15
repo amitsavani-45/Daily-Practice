@@ -55,3 +55,23 @@ for (const entry of fruits.entries())
 {
   console.log(entry);
 }
+
+
+//weak set 
+// Why Use WeakSet?
+// Main reason: To track objects without preventing them from being deleted from memory when no longer needed.
+
+
+const weakSet = new WeakSet();
+
+let obj1 = { name: 'Alice' };
+let obj2 = { name: 'Bob' };
+
+
+weakSet.add(obj1);
+weakSet.add(obj2);
+
+console.log(weakSet.has(obj1));
+
+weakSet.delete(obj1);
+console.log(weakSet.has(obj1)); 
