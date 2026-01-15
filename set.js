@@ -40,3 +40,18 @@ console.log(letter.size);
 for (const fruit of fruits.values()) {
   console.log(fruit);
 }
+
+// keys() - Get all the keys
+// For Sets, this is exactly the same as values() because Sets don't have separate keys and values like objects do.
+
+for (const fruit1 of fruits.keys()) {
+  console.log(fruit1);
+}
+
+// entries() - Get key-value pairs
+// This gives you pairs of [value, value]. Yes, the same value twice! This exists to match the Map structure.
+
+for (const entry of fruits.entries()) 
+{
+  console.log(entry);
+}
