@@ -27,4 +27,7 @@ console.log(Math.random());
 console.log(Math.log(2));
 console.log(Math.log10(1000));
 
+console.log(Math.floor(Math.random()* 10));
 
+console.log(Math.floor(Math.random()* 100));
+console.log(Math.floor(Math.random()* 1000));
