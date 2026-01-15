@@ -35,3 +35,11 @@ let d=prompt("enter the number");
 let res=sum(c,d);//call the function 
 console.log("Sum of two number is",res);
 
+
+//add 3 numbers
+function addThreeNumbers(p,q,r)
+{
+    return p+q+r;
+}
+let sumOfThree=addThreeNumbers(10,20,30);
+console.log("Sum of three numbers is",sumOfThree);

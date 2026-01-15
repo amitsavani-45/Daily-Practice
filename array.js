@@ -153,3 +153,11 @@ const modified = original.toSpliced(2, 1, 99);
 console.log(modified);  
 
 console.log(original);  
+
+
+//array for a prime numbers
+let primes=[2,3,5,7,11,13,17,19,23,29];
+for(let i=0;i<primes.length;i++)
+{
+    console.log(primes[i]);
+}   

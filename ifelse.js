@@ -95,3 +95,15 @@ else if(temp<29 && temp>=20)
     else {
         console.log("low temperature");
     }
+
+    //check number is odd
+
+    let num=7;
+
+    if(num%2!=0)
+    {
+        console.log("Number is odd");   
+    }
+    else{
+        console.log("Number is not odd");
+    }
