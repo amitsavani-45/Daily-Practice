@@ -55,3 +55,22 @@ const setX = new Set([1, 2, 3]);
 const setY= new Set([4, 5, 6]);
 
 console.log(setX.isDisjointFrom(setY));
+
+//Student Classes
+const mathClass = new Set(['Alice', 'Bob', 'Charlie']);
+const scienceClass = new Set(['Charlie', 'David', 'Eve']);
+
+// Students in either class
+console.log(mathClass.union(scienceClass));
+
+
+// Students in both classes
+console.log(mathClass.intersection(scienceClass));
+
+
+// Students only in math and in science 
+console.log(mathClass.difference(scienceClass));
+console.log(scienceClass.difference(mathClass));
+
+// Students in exactly one class
+console.log(mathClass.symmetricDifference(scienceClass));
