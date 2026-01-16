@@ -23,3 +23,18 @@ const person2 = {
 
 let name = person1.fullName.call(person2);
 console.log(name); 
+
+
+//apply() function
+
+const calculator = {
+    sum: function(a, b, c) {
+        return a + b + c;
+    }
+};
+
+
+const numbers = [10, 20, 30];
+
+let result2 = calculator.sum.apply(null, numbers);
+console.log(result2);  
