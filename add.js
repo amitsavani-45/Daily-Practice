@@ -1,5 +1,7 @@
+import promptsync from 'prompt-sync';
+const prompt=promptsync()
 
-
+/*
 //normal programe for sum of two numbers 
 
 let x =prompt("enter the first number ");
@@ -43,3 +45,58 @@ function addThreeNumbers(p,q,r)
 }
 let sumOfThree=addThreeNumbers(10,20,30);
 console.log("Sum of three numbers is",sumOfThree);
+
+
+//ADD 3 number
+
+let a=20;
+let b=30;
+let e=40;
+let f=a+b+e;
+console.log("addition of three number is",f);
+
+
+// Write a program to add decimal numbers: 5.5 and 3.2
+
+
+let A=5.5;
+let B=3.2;
+let D=A+B;
+console.log("the addition of decimal number is",D);
+
+*/
+// Calculate total price: shirt=500, pant=800, shoes=1200
+// 17. Find total marks: Math=85, Science=90, English=78
+// 18. Calculate weekly expenses: Mon=200, Tue=150, Wed=300, Thu=100, Fri=250
+// 19. Add monthly salary: Basic=30000, HRA=5000, DA=3000
+// 20. Calculate total distance: Day1=50km, Day2=75km, Day3=60km
+
+
+function find_the_totalmarks(maths,science,english){
+  return maths+science+english;
+
+ }
+
+let sumofmark=find_the_totalmarks(85,90,78);
+console.log("the total mark",sumofmark); 
+
+//
+let sum_of_all;
+function weekly_expenses (mon , tues , wed , thurs ,fri , sat , sun){
+  
+  return sum_of_all=mon+tues+wed+thurs+fri+sat+sun;
+}
+  let sumofall=weekly_expenses(200,150,300,100,250,230,100);
+  console.log("the total entense of week is",sumofall); 
+
+function monthly_salary(basic,hra,da){
+    return basic+hra+da;
+}
+let totalsalary= monthly_salary(30000,5000,3000);
+ console.log("the total salary of month is ",totalsalary);
+
+ function total_distance(day1,day2,day3){
+    return day1+day2+day3;
+ }
+ let sumofdistance=total_distance(50,75,60);
+ console.log("the total distance is",sumofdistance);
