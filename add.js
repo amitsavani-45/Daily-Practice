@@ -81,22 +81,22 @@ let sumofmark=find_the_totalmarks(85,90,78);
 console.log("the total mark",sumofmark); 
 
 //
-let sum_of_all;
-function weekly_expenses (mon , tues , wed , thurs ,fri , sat , sun){
-  
-  return sum_of_all=mon+tues+wed+thurs+fri+sat+sun;
-}
-  let sumofall=weekly_expenses(200,150,300,100,250,230,100);
-  console.log("the total entense of week is",sumofall); 
+// function monthly_salary(basic,hra,da){
+//     return basic+hra+da;
+// }
+// let totalsalary= monthly_salary(30000,5000,3000);
+//  console.log("the total salary of month is ",totalsalary);
 
-function monthly_salary(basic,hra,da){
-    return basic+hra+da;
-}
-let totalsalary= monthly_salary(30000,5000,3000);
- console.log("the total salary of month is ",totalsalary);
+//  function total_distance(day1,day2,day3){
+//     return day1+day2+day3;
+//  }
+//  let sumofdistance=total_distance(50,75,60);
+//  console.log("the total distance is",sumofdistance);
 
- function total_distance(day1,day2,day3){
-    return day1+day2+day3;
- }
- let sumofdistance=total_distance(50,75,60);
- console.log("the total distance is",sumofdistance);
+
+function weekly_expencses(mon, tues, wed, thurs , fri, sat){
+    let sum_of_all=mon+tues+wed+thurs+fri+sat;
+    return sum_of_all;
+}
+let total_expencesse=weekly_expencses(200,150,300,100,250,200);
+console.log(total_expencesse);
