@@ -89,3 +89,45 @@ const student2=new student("ashvin",39);
 
 student1.displayinfo();
 student2.displayinfo();
+
+//  for the cricket players
+class CricketPlayer {
+    constructor(name, runs, balls, wickets) {
+        this.name = name;
+        this.runs = runs;
+        this.balls = balls;
+        this.wickets = wickets;
+    }
+
+    getStrikeRate() {
+        return ((this.runs / this.balls) * 100).toFixed(2);
+    }
+
+    getAverage() {
+        return this.runs / 10; // Assuming 10 innings
+    }
+
+    isCenturion() {
+        return this.runs >= 100;
+    }
+
+    isAllRounder() {
+        return this.runs > 50 && this.wickets > 2;
+    }
+
+    displayPlayerInfos() {
+        console.log(`\nPlayer: ${this.name}`);
+        console.log(`Runs: ${this.runs}`);
+        console.log(`Balls: ${this.balls}`);
+        console.log(`Strike Rate: ${this.getStrikeRate()}`);
+        console.log(`Wickets: ${this.wickets}`);
+        console.log(`Century: ${this.isCenturion() ? "Yes" : "No"}`);
+        console.log(`All-Rounder: ${this.isAllRounder() ? "Yes" : "No"}`);
+    }
+}
+
+const player1 = new CricketPlayer("Virat Kohli", 120, 85, 0);
+const player2 = new CricketPlayer("Hardik Pandya", 65, 40, 3);
+
+player1.displayPlayerInfos();
+player2.displayPlayerInfos();
