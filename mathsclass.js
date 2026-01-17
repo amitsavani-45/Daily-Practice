@@ -56,3 +56,36 @@ table(number,range=10){
 
 const tableCalc = new calculation();  +" "
 tableCalc.table(2);
+
+//CLASS AND FUNCTION FOR STUDENT RESULT
+
+class student{
+    constructor(name,marks){
+        this.name=name;
+        this.marks=marks;
+    }
+
+    grade(){
+        if(this.marks>=90) return "A";
+          else if(this.marks >= 75) return "B";
+        else if(this.marks >= 60) return "C";
+        else return "F";
+    }
+
+    ispassed(){
+    return this.mark>=40;
+  }
+  displayinfo(){
+    console.log("Student name"+" "+this.name);
+     console.log("mark"+" "+this.marks);
+      console.log("grade"+" "+this.grade());
+      console.log("status pass or fail"+" "+ this.ispassed() ? "Passed" : "Failed")
+    
+
+  }
+}
+const student1=new student("jaydeep",93);
+const student2=new student("ashvin",39);
+
+student1.displayinfo();
+student2.displayinfo();
