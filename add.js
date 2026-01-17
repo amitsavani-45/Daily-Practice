@@ -65,11 +65,11 @@ let D=A+B;
 console.log("the addition of decimal number is",D);
 
 */
-// Calculate total price: shirt=500, pant=800, shoes=1200
-// 17. Find total marks: Math=85, Science=90, English=78
-// 18. Calculate weekly expenses: Mon=200, Tue=150, Wed=300, Thu=100, Fri=250
-// 19. Add monthly salary: Basic=30000, HRA=5000, DA=3000
-// 20. Calculate total distance: Day1=50km, Day2=75km, Day3=60km
+// 
+// Find total marks: Math=85, Science=90, English=78
+// Calculate weekly expenses: Mon=200, Tue=150, Wed=300, Thu=100, Fri=250
+// Add monthly salary: Basic=30000, HRA=5000, DA=3000
+//  Calculate total distance: Day1=50km, Day2=75km, Day3=60km
 
 
 function find_the_totalmarks(maths,science,english){
