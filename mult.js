@@ -43,3 +43,22 @@ function page_read(pages,day){
 let pages=page_read(25,7);
 console.log("the total page read in week",pages);
 
+function distance(speed,hour){
+return speed*hour;
+}
+let traveled=distance(60,3);
+console.log("the total distancd traveled",traveled);
+
+function cost(shirt,rs)
+{
+    return shirt*rs
+}
+let totalcost=cost(15,500);
+console.log("the cost of shirt",totalcost);
+
+function calories_burned(calories,minute){
+    return calories*minute;
+}
+let calories=calories_burned(50,30);
+console.log("total calories burned",calories);
+
