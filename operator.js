@@ -1,5 +1,5 @@
  //Special symbol use dto perform operation on values 
- 
+ /*
  //Artihmetic operators 
 
  //addition 
@@ -120,3 +120,36 @@ let isRaining = false;
 if (!isRaining) {
     console.log("Let's go outside!");
 }
+*/
+let a = 10;
+let b = 3;
+
+console.log(a + b);  
+console.log(a - b);  
+console.log(a * b);  
+console.log(a / b); 
+console.log(a % b);  
+console.log(a ** b); 
+
+let x = 5;
+x += 3;  
+x -= 2;  
+x *= 4;  
+x /= 3;  
+x %= 5;  
+
+let p = 5;
+let q = "5";
+
+console.log(p == q);   
+console.log(p === q);  
+console.log(p != q);   
+console.log(p !== q);  
+console.log(p > 3);    
+console.log(p < 10);  
+console.log(p >= 5);   
+console.log(p <= 4);   
+
+let age = 20;
+let status = (age >= 18) ? "Adult" : "Minor";
+console.log(status);  
