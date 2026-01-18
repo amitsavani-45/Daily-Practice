@@ -107,3 +107,41 @@ else if(temp<29 && temp>=20)
     else{
         console.log("Number is not odd");
     }
+
+    let username = "amit";
+let password = "1234";
+
+if (username === "amit" && password === "1234") {
+  console.log("Login successful");
+} else {
+  console.log("Invalid credentials");
+}
+
+let day = "Saturday";
+
+if (day === "Saturday" || day === "Sunday") {
+  console.log("It's the weekend!");
+} else {
+  console.log("It's a weekday");
+}
+
+let temperature = 25;
+let isRaining = false;
+
+if (temperature > 20) {
+  if (isRaining) {
+    console.log("Warm but rainy - bring an umbrella");
+  } else {
+    console.log("Nice weather!");
+  }
+} else {
+  console.log("It's cold outside");
+}
+
+let password = "abc";
+
+if (password.length >= 8) {
+  console.log("Strong password");
+} else {
+  console.log("Password too short");
+}
