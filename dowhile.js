@@ -33,4 +33,7 @@ let m=1;
 do{
     console.log(m);
     m+=2;
-}   
+}
+while(m<20)
+
+    

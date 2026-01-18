@@ -138,9 +138,9 @@ if (temperature > 20) {
   console.log("It's cold outside");
 }
 
-let password = "abc";
+let pass = "abc";
 
-if (password.length >= 8) {
+if (pass.length >= 8) {
   console.log("Strong password");
 } else {
   console.log("Password too short");
