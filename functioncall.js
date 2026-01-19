@@ -145,3 +145,14 @@ console.log("the odd natural number is");
 oddnatural_number(10);
 
 
+//factorial of n number 
+
+function factorial(numb){
+    let fact=1;
+    for(let i=1; i<=numb; i++)
+    {
+        fact*=i;
+    }
+    return fact;
+}
+console.log("factorial is",factorial(5));
