@@ -64,7 +64,7 @@ let i=n;
 while(i>=2){
     console.log(i);
     i-=2;
-}   
+} 
 
     //write N even Natural number
 let n=prompt("Enter the value ");
@@ -73,5 +73,13 @@ while(i<=n){
     console.log(i);
     i+=2;
 }
+ */ 
 
-*/
+
+  //write square of n number
+let n=prompt("Enter the value ");
+let i=1;
+while(i>=n){
+    console.log(i);
+    i=i*i;
+}
