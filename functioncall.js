@@ -122,3 +122,26 @@ console.log("the simple interst is",simple_interst);
 
 
 
+//first N natural number 
+
+function natural_number(num)
+{
+    for(let i=1; i<=num; i++){
+        console.log(i);
+        }
+        
+}
+console.log("the natural number is");
+natural_number(10);
+
+
+//odd natural number 
+ function oddnatural_number(number){
+    for(let i=1; i<=number; i+=2 ){
+        console.log(i);
+    }
+ }
+console.log("the odd natural number is");
+oddnatural_number(10);
+
+
