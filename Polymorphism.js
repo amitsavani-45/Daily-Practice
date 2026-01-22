@@ -8,3 +8,25 @@ Can be achieved through method overloading (same method name, different paramete
 
 Makes code more flexible and extensible.
 */
+
+class Animal {
+  sound() {
+    console.log("Animal makes sound");
+  }
+}
+
+class Dog extends Animal {
+  sound() {
+    console.log("Dog barks");
+  }
+}
+
+class Cat extends Animal {
+  sound() {
+    console.log("Cat meows");
+  }
+}
+
+let animals = [new Dog(), new Cat()];
+
+animals.forEach(animal => animal.sound());
