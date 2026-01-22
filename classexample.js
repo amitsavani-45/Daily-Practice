@@ -58,3 +58,21 @@ class division{
 }
 let division1=new division(45,9);
 division1.div();
+
+class Student {
+  // constructor method
+  constructor(name, rollNo) {
+    this.name = name;
+    this.rollNo = rollNo;
+  }
+
+  // method
+  displayInfo() {
+    console.log("Name:", this.name);
+    console.log("Roll No:", this.rollNo);
+  }
+}
+
+// creating object of the class
+let student1 = new Student("Amit", 101);
+student1.displayInfo();
