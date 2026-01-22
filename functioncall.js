@@ -1,4 +1,4 @@
-const person= { name: "Amit",
+/*const person= { name: "Amit",
                 greet : function()
                 {
                     console.log(" hello , i am" + this.name);
@@ -97,3 +97,62 @@ console.log(giveteam);
 
 let teamname=giveteam();
 console.log(teamname);
+
+*/
+//more on fuction 
+
+//function area of circle
+
+function area_circle(radius){
+    let area=3.14*radius*radius
+    return area;
+}
+let areaofcircle=area_circle(12);
+console.log("the area of circle is",areaofcircle.toFixed(2));
+
+//make a fucntion to calculate the simple interst
+
+function interst(p,r,n){
+    let si=(p*r*n)/100;
+    return si;
+
+}
+let simple_interst=interst(10000,5,2);
+console.log("the simple interst is",simple_interst);
+
+
+
+//first N natural number 
+
+function natural_number(num)
+{
+    for(let i=1; i<=num; i++){
+        console.log(i);
+        }
+        
+}
+console.log("the natural number is");
+natural_number(10);
+
+
+//odd natural number 
+ function oddnatural_number(number){
+    for(let i=1; i<=number; i+=2 ){
+        console.log(i);
+    }
+ }
+console.log("the odd natural number is");
+oddnatural_number(10);
+
+
+//factorial of n number 
+
+function factorial(numb){
+    let fact=1;
+    for(let i=1; i<=numb; i++)
+    {
+        fact*=i;
+    }
+    return fact;
+}
+console.log("factorial is",factorial(5));

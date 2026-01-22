@@ -1,3 +1,4 @@
+/*
 // print 0 to 5
 
 let i=0;
@@ -18,3 +19,67 @@ while(a>=0)
     a--;
 }
 
+*/
+//mysirg in N time print
+import promptsync from 'prompt-sync';
+const prompt=promptsync()
+
+/*
+
+let n=prompt("Enter the value ");
+let i=0;
+while(i<=n)
+{
+    console.log("mysirg");
+    i++;
+}
+// write N Natural number 
+let n=prompt("Enter the value ");
+let i=1;
+while(i<=n){
+    console.log("the natural number is",i);
+    i++
+}
+// write N Natural number  in reverse order
+let n=prompt("Enter the value ");
+let i=n;
+while(i>=1){
+      console.log(i);
+       i--;
+} 
+
+//write N odd Natural number
+let n=prompt("Enter the value ");
+let i=1;
+while(i<=n){
+    console.log(i);
+    i+=2;
+}
+
+
+// n give value even when need reverse even natural number and n give value odd when need reverse odd natural number
+
+let n=prompt("Enter the value ");
+let i=n;
+while(i>=2){
+    console.log(i);
+    i-=2;
+} 
+
+    //write N even Natural number
+let n=prompt("Enter the value ");
+let i=2;
+while(i<=n){
+    console.log(i);
+    i+=2;
+}
+ */ 
+
+
+  //write square of n number
+let n=prompt("Enter the value ");
+let i=1;
+while(i>=n){
+    console.log(i);
+    i=i*i;
+}
