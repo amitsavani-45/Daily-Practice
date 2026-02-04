@@ -12,3 +12,12 @@ console.log(x);
 }
 
 f1();
+
+
+//Hoisting 
+
+function f2()
+{                           //var x;
+    console.log(x);
+    var x=5;                //x=5;
+}
