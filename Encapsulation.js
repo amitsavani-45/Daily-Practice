@@ -34,3 +34,21 @@ console.log(account.getBalance()); // 500
 #balance cannot be accessed directly → safe from external changes
 
 */
+
+class BankAccount {
+  constructor(balance) {
+    this._balance = balance; // private-like property
+  }
+
+  getBalance() {
+    return this._balance;
+  }
+
+  deposit(amount) {
+    this._balance += amount;
+  }
+}
+
+let acc = new BankAccount(5000);
+acc.deposit(2000);
+console.log(acc.getBalance()); // 7000

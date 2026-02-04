@@ -15,3 +15,39 @@ console.log(c)
 
 let d=12;
 console.log(d);
+
+const PI = 3.14;
+let radius = 5;
+
+let area = PI * radius * radius;
+console.log("Area of circle =", area);
+
+
+let a = 10;
+let b = 20;
+
+let temp = a;
+a = b;
+b = temp;
+
+console.log("a =", a);
+console.log("b =", b);
+
+
+let x = 10;
+
+if (true) {
+  let x = 20;
+  console.log("Inside block:", x);
+}
+
+console.log("Outside block:", x);
+
+
+let p = 1000;
+let r = 5;
+let t = 2;
+
+let si = (p * r * t) / 100;
+console.log("Simple Interest =", si);
+
