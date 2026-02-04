@@ -18,7 +18,7 @@ let temperature = -5;
 
 console.log(age); 
 console.log(price + 10);
-A number representing a large integer (beyond Number's safe limit)
+//A number representing a large integer (beyond Number's safe limit)
 let bigNumber = 9007199254740991n;
 let hugeValue = BigInt(123456789012345678901234567890);
 
@@ -67,8 +67,8 @@ console.log(selectedUser);
 console.log(data); 
 
 
-let person = {name: "Alice"};
-person = null; 
+let person1 = {name: "Alice"};
+person1 = null; 
 
 // 7. Symbol
 // A unique and primitive identifier
