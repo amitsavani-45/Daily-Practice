@@ -161,8 +161,14 @@ let a=5;
 x=a%2;
 console.log(x);
 
-
+//preincrement
 let b=7;
 let y;
 y=++b;
-console.log(y);
+console.log(y,b);
+
+//post increment
+let c=7;
+let z;
+z=c++;
+console.log(c,z);
