@@ -186,7 +186,7 @@ console.log(x);
 let x;
 x=4==='4';
 console.log(x);
-*/
+
 
 let x={name:"amit",age:25};
 let y=x;
@@ -195,3 +195,14 @@ let z={name:"amit",age:25};
 console.log(x===z);
 
 console.log(0/0);
+
+let a=5;
+let b=!a;
+console.log(a,b);
+*/
+
+
+let a=5;
+let b=6;
+let c= a>0 && b>0;
+console.log(c);
