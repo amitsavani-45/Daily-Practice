@@ -179,10 +179,17 @@ let x=3;
 x**=2;
 console.log(x);
 
-*/
+
 
 //comparison operator
 
 let x;
 x=4==='4';
 console.log(x);
+*/
+
+let x={name:"amit",age:25};
+let y=x;
+let z={name:"amit",age:25};
+
+console.log(x===z);
