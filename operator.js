@@ -121,6 +121,7 @@ if (!isRaining) {
     console.log("Let's go outside!");
 }
 */
+/*
 let a = 10;
 let b = 3;
 
@@ -153,3 +154,9 @@ console.log(p <= 4);
 let age = 20;
 let status = (age >= 18) ? "Adult" : "Minor";
 console.log(status);  
+
+*/
+
+let a=5;
+x=a%2;
+console.log(x);
