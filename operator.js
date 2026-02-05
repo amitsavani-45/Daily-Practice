@@ -229,8 +229,28 @@ let a=5;
 let b=6;
 let c= true && false || true;
 console.log(c);
-*/
+
 
 
 let a= 25;
 console.log(a.toString(2));
+*/
+
+//odd number 
+let a=25;
+let b;
+let c;
+
+console.time('arithmetic');
+for(let i=1; i<=100000; i++)
+{
+    b=a%2;
+}
+console.timeEnd('arithmetic');
+
+console.time('bitwise');
+for(let i=1; i<=100000; i++)
+{
+   c=a&1;
+}
+console.timeEnd('bitwise');
