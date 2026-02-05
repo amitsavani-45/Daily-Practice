@@ -155,7 +155,7 @@ let age = 20;
 let status = (age >= 18) ? "Adult" : "Minor";
 console.log(status);  
 
-*/
+
 
 let a=5;
 x=a%2;
@@ -172,3 +172,9 @@ let c=7;
 let z;
 z=c++;
 console.log(c,z);
+*/
+//
+let a=5;
+let x=3;
+x**=2;
+console.log(x);
