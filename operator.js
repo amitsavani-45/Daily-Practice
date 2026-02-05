@@ -172,9 +172,17 @@ let c=7;
 let z;
 z=c++;
 console.log(c,z);
-*/
+
 //
 let a=5;
 let x=3;
 x**=2;
+console.log(x);
+
+*/
+
+//comparison operator
+
+let x;
+x=4==='4';
 console.log(x);
