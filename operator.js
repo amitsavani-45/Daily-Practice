@@ -199,10 +199,21 @@ console.log(0/0);
 let a=5;
 let b=!a;
 console.log(a,b);
-*/
+
 
 
 let a=5;
 let b=6;
 let c= a>0 && b>0;
+console.log(c);
+
+
+let a=5;
+let b=6;
+let c= a>0 && ++b;
+console.log(c,b);
+*/
+let a=5;
+let b=6;
+let c= 0 && 2;
 console.log(c);
