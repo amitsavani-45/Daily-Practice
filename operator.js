@@ -160,3 +160,9 @@ console.log(status);
 let a=5;
 x=a%2;
 console.log(x);
+
+
+let b=7;
+let y;
+y=++b;
+console.log(y);
