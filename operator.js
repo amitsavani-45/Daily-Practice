@@ -212,8 +212,14 @@ let a=5;
 let b=6;
 let c= a>0 && ++b;
 console.log(c,b);
-*/
+
 let a=5;
 let b=6;
 let c= 0 && 2;
+console.log(c);
+*/
+
+let a=5;
+let b=6;
+let c=5 || null;
 console.log(c);
