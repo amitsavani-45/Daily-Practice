@@ -193,3 +193,5 @@ let y=x;
 let z={name:"amit",age:25};
 
 console.log(x===z);
+
+console.log(0/0);
