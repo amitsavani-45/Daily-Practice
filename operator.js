@@ -223,9 +223,14 @@ let a=5;
 let b=6;
 let c=5 || null;
 console.log(c);
-*/
+
 
 let a=5;
 let b=6;
 let c= true && false || true;
 console.log(c);
+*/
+
+
+let a= 25;
+console.log(a.toString(2));
