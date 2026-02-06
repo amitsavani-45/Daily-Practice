@@ -1,3 +1,4 @@
+/*
 //Check number is positive 
 let num =10;
 if(num>0)
@@ -21,11 +22,11 @@ if(n%2==0)
     console.log("Number is even");
 }
 
-/*Grade A 80-100 mark 
+Grade A 80-100 mark 
   Grade B 60-79 mark  
   Grade C 35-59 mark
   less than 35 fail
-*/
+
 
 let Num=95;
 
@@ -49,10 +50,10 @@ else
     console.log("Sorry you are fail");
 }
 
-/* Salary high income 50000-90000
+ Salary high income 50000-90000
           medium income 25000-49000
           low income    25000 to low 
-*/
+
 
 let salary=85000;
 
@@ -73,10 +74,10 @@ else
     console.log("Salary is low ");
 }
 
-/* Temperature 30+ hot
+Temperature 30+ hot
             20-29 medium
             19-10 cold
-*/
+
 
 let tem=17;
 
@@ -145,3 +146,7 @@ if (pass.length >= 8) {
 } else {
   console.log("Password too short");
 }
+*/
+
+let x=4;
+console.log(x>0 ? "positive" : "non positive");
