@@ -146,7 +146,29 @@ if (pass.length >= 8) {
 } else {
   console.log("Password too short");
 }
-*/
+
 
 let x=4;
 console.log(x>0 ? "positive" : "non positive");
+*/
+
+let x=3;
+switch(x){
+  case 1: 
+  console.log("A");
+  break;
+  case 2: 
+  console.log("b");
+  break;
+  case 3: 
+  console.log("c");
+  break;
+  case 4: 
+  console.log("d");
+  break;
+  case 5: 
+  console.log("e");
+  break;
+  default:
+    console.log("invalid value");
+}
