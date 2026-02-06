@@ -268,4 +268,22 @@ let a=null;
 let b='kuch nhi';
 let c=a??b;
 console.log(c);
+
+
+
+let p1={
+    name:'saurbh',
+    age:25,
+    address:{
+        firstline:'flat no 31',
+        secondline:'R S S Market',
+        city:'Bhopal',
+        pin: 462042
+    },
+    greet(){
+        return 'hello';
+    }
+};
+console.log(p1.address.city);
+
 */
