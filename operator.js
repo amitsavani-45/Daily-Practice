@@ -255,10 +255,17 @@ for(let i=1; i<=100000; i++)
 }
 console.timeEnd('bitwise');
 
-*/
+
 
 function f1(a,b,c){
     return(a+b+c);
 }
 let x=[10,20,30];
 console.log(f1(...x));
+
+
+let a=null;
+let b='kuch nhi';
+let c=a??b;
+console.log(c);
+*/
