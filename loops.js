@@ -46,8 +46,6 @@ for(let i=2; i<=20; i+=2)
     } 
 
 //
-*/
-
 const p1={
     name:'Rahul',
     age:22,
@@ -59,4 +57,10 @@ const p1={
 
 for(let prop in p1){
     console.log(prop,p1[prop]);
+}
+*/
+
+let a=[10,20,30,40,50];
+for (let x in a){
+    console.log(x,a[x]);
 }
