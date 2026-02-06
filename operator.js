@@ -234,7 +234,7 @@ console.log(c);
 
 let a= 25;
 console.log(a.toString(2));
-*/
+
 
 //odd number 
 let a=25;
@@ -254,3 +254,11 @@ for(let i=1; i<=100000; i++)
    c=a&1;
 }
 console.timeEnd('bitwise');
+
+*/
+
+function f1(a,b,c){
+    return(a+b+c);
+}
+let x=[10,20,30];
+console.log(f1(...x));
