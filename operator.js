@@ -121,6 +121,7 @@ if (!isRaining) {
     console.log("Let's go outside!");
 }
 */
+/*
 let a = 10;
 let b = 3;
 
@@ -153,3 +154,136 @@ console.log(p <= 4);
 let age = 20;
 let status = (age >= 18) ? "Adult" : "Minor";
 console.log(status);  
+
+
+
+let a=5;
+x=a%2;
+console.log(x);
+
+//preincrement
+let b=7;
+let y;
+y=++b;
+console.log(y,b);
+
+//post increment
+let c=7;
+let z;
+z=c++;
+console.log(c,z);
+
+//
+let a=5;
+let x=3;
+x**=2;
+console.log(x);
+
+
+
+//comparison operator
+
+let x;
+x=4==='4';
+console.log(x);
+
+
+let x={name:"amit",age:25};
+let y=x;
+let z={name:"amit",age:25};
+
+console.log(x===z);
+
+console.log(0/0);
+
+let a=5;
+let b=!a;
+console.log(a,b);
+
+
+
+let a=5;
+let b=6;
+let c= a>0 && b>0;
+console.log(c);
+
+
+let a=5;
+let b=6;
+let c= a>0 && ++b;
+console.log(c,b);
+
+let a=5;
+let b=6;
+let c= 0 && 2;
+console.log(c);
+
+
+let a=5;
+let b=6;
+let c=5 || null;
+console.log(c);
+
+
+let a=5;
+let b=6;
+let c= true && false || true;
+console.log(c);
+
+
+
+let a= 25;
+console.log(a.toString(2));
+
+
+//odd number 
+let a=25;
+let b;
+let c;
+
+console.time('arithmetic');
+for(let i=1; i<=100000; i++)
+{
+    b=a%2;
+}
+console.timeEnd('arithmetic');
+
+console.time('bitwise');
+for(let i=1; i<=100000; i++)
+{
+   c=a&1;
+}
+console.timeEnd('bitwise');
+
+
+
+function f1(a,b,c){
+    return(a+b+c);
+}
+let x=[10,20,30];
+console.log(f1(...x));
+
+
+let a=null;
+let b='kuch nhi';
+let c=a??b;
+console.log(c);
+
+
+
+let p1={
+    name:'saurbh',
+    age:25,
+    address:{
+        firstline:'flat no 31',
+        secondline:'R S S Market',
+        city:'Bhopal',
+        pin: 462042
+    },
+    greet(){
+        return 'hello';
+    }
+};
+console.log(p1.address.city);
+
+*/
