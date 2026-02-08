@@ -14,5 +14,5 @@ if (true) {
   console.log(a, b);
 }
 
-console.log(a); // Error
-console.log(b); // Error
+console.log(a); 
+console.log(b);
