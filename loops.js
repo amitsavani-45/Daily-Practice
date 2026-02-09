@@ -58,9 +58,16 @@ const p1={
 for(let prop in p1){
     console.log(prop,p1[prop]);
 }
-*/
 
 let a=[10,20,30,40,50];
 for (let x in a){
     console.log(x,a[x]);
+}
+
+*/
+
+
+let a=[11,22,33,44];
+for(let v of a){
+    console.log(v);
 }
