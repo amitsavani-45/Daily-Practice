@@ -157,7 +157,7 @@ function factorial(numb){
 }
 console.log("factorial is",factorial(5));
 
-*/
+
 
 //Takes nothing ,return nothing
 //takes nothing ,return something
@@ -170,3 +170,4 @@ function f1(a,b){
 }
 f1(10,20);
 f1(30,40);
+*/
