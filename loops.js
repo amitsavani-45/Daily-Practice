@@ -64,10 +64,20 @@ for (let x in a){
     console.log(x,a[x]);
 }
 
-*/
+
 
 
 let a=[11,22,33,44];
 for(let v of a){
     console.log(v);
+}
+*/
+
+let a=[23,45,62,11,19,20];
+let i=0;
+while(i<a.length){
+    console.log(a[i]);
+    if(a[i]%2==0)
+        break;
+    i++;
 }
