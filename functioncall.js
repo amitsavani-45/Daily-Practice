@@ -98,7 +98,7 @@ console.log(giveteam);
 let teamname=giveteam();
 console.log(teamname);
 
-*/
+
 //more on fuction 
 
 //function area of circle
@@ -156,3 +156,17 @@ function factorial(numb){
     return fact;
 }
 console.log("factorial is",factorial(5));
+
+*/
+
+//Takes nothing ,return nothing
+//takes nothing ,return something
+//take something ,return nothing
+//take something,return something
+
+function f1(a,b){
+    console.log("sum is",a+b);
+
+}
+f1(10,20);
+f1(30,40);
