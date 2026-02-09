@@ -58,7 +58,7 @@ Because many operations take **time**, such as:
 * Timers (`setTimeout`, `setInterval`)
 * User interactions (clicks, inputs)
 
-If JavaScript waited for these tasks, the webpage would **freeze** ❌
+If JavaScript waited for these tasks, the webpage would **freeze** 
 
 ### Without async:
 
@@ -67,9 +67,22 @@ If JavaScript waited for these tasks, the webpage would **freeze** ❌
 
 ### With async:
 
-* Page remains interactive ✅
+* Page remains interactive 
 * Faster and smoother applications
 
 ---
 
 */
+console.log("1");
+setTimeout(function(){console.log("A");},3000);
+console.log("2");
+setTimeout(function(){console.log("B");},1000);
+f1();
+console.log("4");
+setTimeout(function(){console.log("C");},2000);
+console.log("5");
+f1();
+console.log("6");
+function f1(){
+  console.log("hello");
+}
