@@ -161,7 +161,7 @@ for(let i=0;i<primes.length;i++)
 {
     console.log(primes[i]);
 }   
-    */
+    
 
 const a=[10,20,30,40]
 console.log(a[4]);
@@ -178,3 +178,18 @@ console.log(a.length);
 
 const c=[45,4.6,true,'mysirg'];
 console.log(c)
+*/
+
+// const b=new Array();
+// console.log(b);
+
+let a=[23,24,54,34,65,13,16,40];
+// let i=0;
+// while(i<a.length){
+//     console.log(a[i]);
+// i++;
+// }
+
+for(let i=0;i<a.length;i++){
+    console.log(a[i]);
+}
