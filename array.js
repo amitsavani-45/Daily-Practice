@@ -252,3 +252,7 @@ console.log(c)
 
 // let b=a.slice(2,6);
 // console.log(b);
+
+let a=[1,2,3];
+let b=[4,5,6];
+
