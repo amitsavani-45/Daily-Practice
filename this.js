@@ -32,4 +32,24 @@ const obj={
 }
 obj.sayHi();
 
+
+
+const anotherObj={
+    name:'Aditya'
+};
+anotherObj.sayHi=obj.sayHi;
+anotherObj.sayHi();
+obj.sayHi();
+
+
+
+
+function Book(id,title,price){
+    this.id=id;
+    this.title=title;
+    this.price=price;
+    console.log(this);
+}
+const b1=new Book(1,"js in depth",400);
+
 */
