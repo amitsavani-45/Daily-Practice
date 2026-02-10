@@ -46,7 +46,7 @@ const checkage= age =>{
 
     checkage(20);
 
-*/
+
 
 
 function sayHi(fun){
@@ -59,3 +59,20 @@ function f5(username='unknown'){
     console.log("hello,"+username);
 }
 f5();
+
+//Anoymous function
+
+
+function fun(f){
+    f();
+}
+fun (function (){
+    console.log("i am f6");
+});
+
+*/
+//IIFE: immediately invoked function expression
+
+(function(){
+    console.log("i am f7");
+})();
