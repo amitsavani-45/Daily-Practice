@@ -52,9 +52,47 @@ function Book(id,title,price){
 }
 const b1=new Book(1,"js in depth",400);
 
-*/
+
 
 let btn=document.getElementById("btn");
 btn.addEventListener('click',function(){
     console.log(this);
 });
+
+function f1(){
+    let a=10;
+    const arrow=() =>{
+        console.log(a);
+    };
+
+}
+f1();
+
+
+const arrow=() =>{
+    console.log(this);
+};
+arrow();
+
+
+const obj={
+    a:10,
+    f1:function(){
+        console.log(this.a);
+        setTimeout(function(){
+            console.log(this);
+        },2000);
+    },
+
+    f2:function(){
+        console.log(this.a);
+        setTimeout(()=>{
+            console.log(this);
+        },2000);
+    }
+}
+obj.f1();
+obj.f2();
+
+
+*/
