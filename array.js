@@ -207,3 +207,32 @@ console.log(c)
 // console.log(a);
 // a[2]=78;
 // console.log(a);
+
+
+// const a=[11,23,5];
+// // console.log(a)
+// // a.push(50);
+// // a.unshift(40);
+// // console.log(a);
+// // a.pop();
+
+
+// a.splice(1,0,60);
+// console.log(a);
+// a.splice(1,2);
+// console.log(a);
+// a.splice(0,2,30,40,50);
+// console.log(a);
+
+// const a=[25,50,12,46];
+// a.forEach((element,index,a)=>{
+//     a[index]=element+2;
+//     console.log(a);
+// });
+
+//map,filter,reduce
+
+const a=[11,2,7,4,6,15,9];
+let b=a.map((e)=>e+1);
+console.log(a);
+console.log(b);
