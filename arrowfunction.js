@@ -70,9 +70,18 @@ fun (function (){
     console.log("i am f6");
 });
 
-*/
+
 //IIFE: immediately invoked function expression
 
 (function(){
     console.log("i am f7");
 })();
+*/
+
+//argument object 
+function f8(){
+    for(let k of arguments){
+        console.log(k);
+    }
+}
+f8(10,20,30,40);
