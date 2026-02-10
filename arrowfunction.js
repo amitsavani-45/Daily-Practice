@@ -76,7 +76,7 @@ fun (function (){
 (function(){
     console.log("i am f7");
 })();
-*/
+
 
 //argument object 
 function f8(){
@@ -85,3 +85,31 @@ function f8(){
     }
 }
 f8(10,20,30,40);
+
+//constructor function
+
+function person(name,age){
+    console.log(this);
+    this.name=name;
+    this.age=age;
+}
+person('amit',20);
+*/
+
+//generator function
+
+function* counter(){
+    yield 1;
+    yield 2;
+    yield 3;
+}
+
+const g=counter();
+console.log(g.next());
+console.log(g.next());
+console.log(g.next());
+console.log(g.next());
+
+
+
+
