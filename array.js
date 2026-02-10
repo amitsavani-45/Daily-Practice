@@ -1,4 +1,4 @@
-let color=["red","blue","green","yellow","black"];
+/*let color=["red","blue","green","yellow","black"];
 
 console.log(color [2]);
 console.log(color.length);
@@ -161,3 +161,20 @@ for(let i=0;i<primes.length;i++)
 {
     console.log(primes[i]);
 }   
+    */
+
+const a=[10,20,30,40]
+console.log(a[4]);
+
+// const p1={
+//     name:'Rahul',
+//     age:23
+// };
+// console.log(p1.name,p1.age)
+
+a[5]=50;
+console.log(a);
+console.log(a.length);
+
+const c=[45,4.6,true,'mysirg'];
+console.log(c)
