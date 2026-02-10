@@ -53,3 +53,8 @@ function Book(id,title,price){
 const b1=new Book(1,"js in depth",400);
 
 */
+
+let btn=document.getElementById("btn");
+btn.addEventListener('click',function(){
+    console.log(this);
+});
