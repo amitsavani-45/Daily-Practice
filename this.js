@@ -9,4 +9,27 @@ In a function, in strict mode, this is undefined.
 In an object method, this refers to the object.
 In an event, this refers to the element that received the event.
 Methods like call(), apply(), and bind() can refer this to any object
+
+
+
+let a=10;
+
+function f1(){
+    console.log(this);
+}
+f1();
+
+
+
+
+
+const obj={
+    name:'saurabh',
+    age:44,
+    sayHi:function(){
+        console.log("i am"+" "+this.name);
+    }
+}
+obj.sayHi();
+
 */
