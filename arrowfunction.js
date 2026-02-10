@@ -1,3 +1,4 @@
+/*
 import promptsync from 'prompt-sync';
 const prompt=promptsync()
 
@@ -45,3 +46,16 @@ const checkage= age =>{
 
     checkage(20);
 
+*/
+
+
+function sayHi(fun){
+    console.log(fun('Amit'));
+}
+
+//default parameter
+
+function f5(username='unknown'){
+    console.log("hello,"+username);
+}
+f5();
