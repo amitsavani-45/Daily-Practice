@@ -183,13 +183,27 @@ console.log(c)
 // const b=new Array();
 // console.log(b);
 
-let a=[23,24,54,34,65,13,16,40];
+// let a=[23,24,54,34,65,13,16,40];
 // let i=0;
 // while(i<a.length){
 //     console.log(a[i]);
 // i++;
 // }
 
-for(let i=0;i<a.length;i++){
-    console.log(a[i]);
-}
+// for(let i=0;i<a.length;i++){
+//     console.log(a[i]);
+// }
+
+// for(let k in a){
+//     console.log(k);
+// }
+
+// for (let v of a){
+//     console.log(v);
+// }
+
+//modify array elements
+// let a=[23,34,65,78,11,14,27,30];
+// console.log(a);
+// a[2]=78;
+// console.log(a);
