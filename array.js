@@ -232,7 +232,23 @@ console.log(c)
 
 //map,filter,reduce
 
-const a=[11,2,7,4,6,15,9];
-let b=a.map((e)=>e+1);
-console.log(a);
-console.log(b);
+// const a=[11,2,7,4,6,15,9];
+// // let b=a.map((e)=>e+1);
+// // console.log(a);
+// // console.log(b);
+
+// // let b=a.filter((e)=>e>7);
+// // console.log(a);
+// // console.log(b);
+
+// let result=a.reduce((s,e)=>s+e,0);
+// console.log(result);
+
+// const a=[23,56,11,23,10,5,7];
+// // console.log(a.indexOf(23));
+// // console.log(a.lastIndexOf(23));
+// // console.log(a.includes(11));
+// // console.log(a.join('-'));
+
+// let b=a.slice(2,6);
+// console.log(b);
