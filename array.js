@@ -17,7 +17,7 @@ marks.push(99);
 console.log(marks); 
 
 
-//array as a object
+
 
 const student=[{id :1,name:"amit",grade:"a"},{id :2,name:"rohit",grade:"b"},
     {id :3,name:"virat",grade:"c"}
