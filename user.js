@@ -1,5 +1,4 @@
-import promptSync from 'prompt-sync';
-const prompt = promptSync();
+
 
 let x = prompt("Enter the first number: ");
 let y = prompt("Enter the second number: ");
