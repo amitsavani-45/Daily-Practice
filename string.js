@@ -47,7 +47,7 @@ console.log("the value is ",res);
 // let result=`sum of ${a} and ${b} is ${c}`;
 
 
-let s1="mysirg youtube";
+//let s1="mysirg youtube";
 //console.loh(s1.length);
 
 // console.log(s1.indexOf('e'));
