@@ -19,10 +19,6 @@ Think of an object as a real-world thing with characteristics and actions.
 
 🔹 Real-life analogy
 
-
-
-
-
 Object: A car
 
 
@@ -33,7 +29,7 @@ Properties: color, brand, speed
 
 Methods: drive(), stop(), honk()
 
-*/
+*/ //car aek object hai jisme properties aur methods hote hai.
 
 let car = {
   brand: "Toyota",
