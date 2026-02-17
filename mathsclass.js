@@ -1,8 +1,4 @@
-/*
-in this making the mathamatical function like addition
-,subcration,multiplication.,division in one class and calling it and make the this*/
 
-// in one claas many fucntion are call 
 class maths{
 
 add(a,b){
