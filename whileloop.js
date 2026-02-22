@@ -57,7 +57,7 @@ while(i<=n){
 }
 
 
-// n give value even when need reverse even natural number and n give value odd when need reverse odd natural number
+
 
 let n=prompt("Enter the value ");
 let i=n;
