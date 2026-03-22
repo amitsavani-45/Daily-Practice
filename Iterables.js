@@ -1,7 +1,6 @@
 /*terating means looping over a sequence of elements.
 
 Here are some examples:
-
 Iterating over a String
 Iterating over an Array
 Iterating over a Set
@@ -83,7 +82,8 @@ console.log(iterator.next());
 ```
 Array: ['apple', 'banana', 'orange']
         ↑
-     iterator starts here
+
+     
 
 Call 1: next() → { value: 'apple', done: false }
                   ↓
