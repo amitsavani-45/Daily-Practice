@@ -5,7 +5,6 @@ console.log(color.length);
 color.pop();
 console.log(color);
 
-//changung value of array 
 const marks = [85, 92, 78, 95, 88];
 
 
